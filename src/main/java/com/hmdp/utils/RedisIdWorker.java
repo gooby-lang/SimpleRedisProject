@@ -8,6 +8,9 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * 为每个redis中的key获取id
+ */
 @Component
 public class RedisIdWorker {
 
